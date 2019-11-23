@@ -16,12 +16,15 @@ int main(int argc, const char** argv) {
     int worm;
     for(int i = 0; i < m; i++){
         cin >> worm;
+        /*
         for(int j = 1; j <= n; j++){
             if(worm <= a[j-1]){
                 cout << j << endl;
                 break;
             }
         }
+        */
+        cout << lower_bound(a, a+n, worm) - a + 1 << endl;
     }
 
     return 0;
