@@ -24,7 +24,7 @@ int main(int argc, const char** argv) {
             }
         }
         */
-        cout << lower_bound(a, a+n, worm) - a + 1 << endl;
+        cout << lower_bound(a, a+n, worm) - a + 1 << endl; //STL
     }
 
     return 0;
