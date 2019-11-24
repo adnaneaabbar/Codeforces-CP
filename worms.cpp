@@ -24,7 +24,7 @@ int main(int argc, const char** argv) {
             }
         }
         */
-        cout << lower_bound(a, a+n, worm) - a + 1 << endl; //STL
+        cout << lower_bound(a, a+n, worm) - a + 1 << endl; //STL lowerr_bound returns first position where worm can be inserted
     }
 
     return 0;
